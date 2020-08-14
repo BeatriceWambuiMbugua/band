@@ -1,0 +1,65 @@
+nav {
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+    text-align: right;
+ }
+ nav ul li {
+     text-decoration: none;
+     text-align: right;
+     display: inline-block;
+
+ }
+ nav>ul>li>a {
+    padding: 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+nav>ul>li>a:hover{
+    background-color: black;
+}
+
+ body{
+     background-color: turquoise;
+     color:black;
+     font-size: 20px;
+ }
+ .sidebar h1{
+    text-align: center;
+    float: left; 
+    padding: 20px;
+    margin: 0px;
+ }
+ .sidebar{
+     border: 2px solid black;
+     justify-content: space-around;
+     background-color: chartreuse;
+ }
+ .column{
+     float: left;
+     border: 2px solid black;
+     padding: 20px;
+     justify-content: space-around;
+ }
+ .column p{
+     float: left;
+     justify-content: space-around;
+     align-content: right;
+ }
+ .notice a{
+     border: 2px solid black;
+     background-color: green;
+     color: black;
+     text-decoration: none; 
+ 
+ }
+ .notice{
+     text-align: center;
+ }
+ .concert{
+     text-align: center;
+ }
+
+
